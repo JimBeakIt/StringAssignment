@@ -10,21 +10,24 @@ namespace StringAssignment
     {
         static void Main(string[] args)
         {
-            string userName1 = "James";
-            string userName2 = "Rumey";
-            string userName3 = "Larry";
-            string dateString = DateTime.Today.ToShortDateString();
+            //string userName1 = "James";
+            //string userName2 = "Rumey";
+            //string userName3 = "Larry";
+            //string dateString = DateTime.Today.ToShortDateString();
 
-            userName2 = userName2.ToUpper();
+            //userName2 = userName2.ToUpper();
 
-            string str = "Hello " + userName1 + ", " + userName2 + " and " + userName3  + ". Today is " + dateString + ".";
-            System.Console.WriteLine(str);
+            //string str = "Hello " + userName1 + ", " + userName2 + " and " + userName3  + ". Today is " + dateString + ".";
+            //System.Console.WriteLine(str);
             
-            Console.ReadLine();
+            //Console.ReadLine();
 
             StringBuilder sb = new StringBuilder();
 
-            sb.Append("")
+            sb.Append("I live in the county of Essex, \nin England, \nUnited Kingdom.");
+
+            Console.WriteLine(sb);
+            Console.ReadLine();
         }
     }
 }
